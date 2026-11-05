@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "MCP Manager",
+    "description": "Discover, add, enable, disable and inspect every MCP server configured on this machine, together with the tools each one exposes."
+  }
+}

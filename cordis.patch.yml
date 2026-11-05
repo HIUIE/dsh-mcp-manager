@@ -1,0 +1,12 @@
+- insert:
+    - id: local-dsh-mcp-manager
+      name: '@local/dsh-mcp-manager'
+      config:
+        # How long a discovery scan is reused before re-reading config files.
+        scanTtlMs: 15000
+        # How long a live tool listing is reused before re-asking the host.
+        toolsTtlMs: 60000
+        # Keep this many timestamped backups per edited config file.
+        retainBackups: 20
+        # Include MCP servers declared by other applications in the list.
+        includeOtherApps: true

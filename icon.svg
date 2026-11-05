@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="MCP Manager">
+  <defs>
+    <linearGradient id="mcpGrad" x1="10" y1="8" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#1E40AF"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#mcpGrad)"/>
+  <g stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M32 32 18 20M32 32 46 20M32 32 18 44M32 32 46 44"/>
+  </g>
+  <circle cx="32" cy="32" r="7.5" fill="#FFFFFF"/>
+  <circle cx="32" cy="32" r="3" fill="#1E40AF"/>
+  <g fill="#DBEAFE">
+    <circle cx="18" cy="20" r="4.6"/>
+    <circle cx="46" cy="20" r="4.6"/>
+    <circle cx="18" cy="44" r="4.6"/>
+    <circle cx="46" cy="44" r="4.6"/>
+  </g>
+</svg>
